@@ -1,0 +1,166 @@
+
+
+.top-cover {
+  width: 25%;
+  height: 100px;
+  background: #eee;
+  margin: -80px auto 0;
+  margin-left:-0px;
+  z-index:4;
+}
+
+.main-cover {
+  width: 20%;
+  height: 900px;
+  position: relative;
+  margin: -85px auto 0;
+  z-index: 4;
+  background-color: darkgrey;
+  margin-left:0px;
+
+}
+
+#dp {
+  width: 50%;
+  position: absolute;
+  left: 10%;
+  margin: -2% 0 0 -10%;
+
+}
+
+.dp-pic {
+  width: 100%;
+
+
+}
+
+
+
+/* #mycont1{
+  position:relative;
+  margin: 0px auto 0;
+  margin-right:30px;
+
+
+} */
+
+#mycont2{
+  /* margin: -750px auto 0; */
+  top:30px;
+  /* position:relative; */
+  z-index: 8;
+  margin-top:100px;
+
+}
+#mycont3{
+  margin-top:130px;
+  margin-bottom:100px;
+
+}
+
+
+body {
+  margin: 0;
+
+}
+
+#card1 {
+  -webkit-box-shadow: inset 0 10px 10px -10px black;
+-moz-box-shadow: inset 0 10px 10px -10px black;
+box-shadow: inset 0 10px 10px -10px black;
+z-index: 1;
+position: relative;
+}
+
+.header {
+  background-color: #6D98E8;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #6D98E8;
+  z-index:6;
+
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: darkgrey;;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+ background-color: white;
+}
+
+#rowTec{
+z-index: 2;
+/* position: relative; */
+}
+
+#mycont4{
+margin-bottom:250px;
+margin-top:200px;
+}
+#mycont5{
+  /* background-color:antiquewhite; */
+  background:url('../img/stars.png') no-repeat center top #FFF
+}
+
+.myCard{
+  border:0px;
+  margin-bottom:50px;
+}
+
+.card-header {
+  background-color:white;
+}
+/* #col{
+
+}
+
+@media screen and (max-width:880px) {
+  #col img {
+    display: none;
+  }
+} */
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin-bottom:30px;
+
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

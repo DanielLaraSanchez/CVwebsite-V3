@@ -1,0 +1,225 @@
+
+
+.top-cover {
+  width: 25%;
+  height: 100px;
+  background: #eee;
+  margin: -80px auto 0;
+  margin-left:-0px;
+  z-index:4;
+}
+
+.main-cover {
+  width: 20%;
+  height: 900px;
+  position: relative;
+  margin: -85px auto 0;
+  z-index: 4;
+  background-color: darkgrey;
+  margin-left:0px;
+
+}
+
+#dp {
+  width: 50%;
+  position: absolute;
+  left: 10%;
+  margin: -2% 0 0 -10%;
+
+}
+
+.dp-pic {
+  width: 100%;
+
+
+}
+
+
+
+/* #mycont1{
+  position:relative;
+  margin: 0px auto 0;
+  margin-right:30px;
+
+
+} */
+
+#mycont2{
+  /* margin: -750px auto 0; */
+  top:30px;
+  /* position:relative; */
+  z-index: 8;
+  margin-top:100px;
+
+}
+#mycont3{
+  margin-top:130px;
+  margin-bottom:100px;
+
+}
+
+
+body {
+  margin: 0;
+
+}
+
+#card1 {
+  -webkit-box-shadow: inset 0 10px 10px -10px black;
+-moz-box-shadow: inset 0 10px 10px -10px black;
+box-shadow: inset 0 10px 10px -10px black;
+z-index: 1;
+position: relative;
+}
+
+.header {
+  /* background-color: #26262a; */
+  /* padding: 30px; */
+  text-align: center;
+  width:100%;
+  background-image: url("../img/navbar.jpg");
+    background-repeat: no-repeat;
+    /* opacity: 0.5;
+   filter: alpha(opacity=50) */
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #26262a;
+  z-index:6;
+  white-space: nowrap;
+  line-height: 1em;
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: proxima-nova;
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+letter-spacing: .15em;
+text-transform: uppercase;
+
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: darkgrey;;
+  color: white;
+}
+#navrow{
+  background-color:#26262a;
+
+  background: url("https://www.patrik-huebner.com/wordpress/wp-content/uploads/2016/01/sketch_12_02.gif");
+  height: 600px;
+
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+   filter: alpha(opacity=50); */
+
+}
+
+.content {
+  padding: 16px;
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+ background-color: white;
+} */
+
+#rowTec{
+z-index: 2;
+/* position: relative; */
+}
+
+#mycont4{
+margin-bottom:250px;
+margin-top:200px;
+}
+#mycont5{
+  /* background-color:antiquewhite; */
+  background:url('../img/stars.png') no-repeat center top #FFF
+}
+
+.myCard{
+  border:0px;
+  margin-bottom:50px;
+}
+
+.card-header {
+  background-color:white;
+}
+
+
+#footerContainer{
+/* height:200px; */
+background-color:#26262a;
+
+
+}
+/* #col{
+
+}
+
+@media screen and (max-width:880px) {
+  #col img {
+    display: none;
+  }
+} */
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin-bottom:30px;
+
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom1 {
+    transition: transform .2s; /* Animation */
+    margin-bottom:30px;
+
+}
+
+.zoom1:hover {
+    transform: scale(-1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
