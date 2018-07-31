@@ -1,62 +1,25 @@
-body {
-  margin: 0;
-  font-size: 28px;
-}
-
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+.link-1 {
+  transition: 0.3s ease;
+  background: #26262a;
+  color: #fff;
+  font-size: 20px;
   text-decoration: none;
-  font-size: 17px;
+  border-top: 4px solid #26262a;
+  border-bottom: 4px solid #26262a;
+  padding: 20px 0;
+  margin: 0 20px;
 }
-#navrow{
-  background-color:#26262a;
-
-  background: url('../img/codebg.png');
-  height: 600px;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-   filter: alpha(opacity=50);
-
+.link-1:hover {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 6px 0;
+  text-decoration:none;
+  color:#fff;
 }
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
+#nav-1{
+  margin-top: 20px;
+padding: 24px;
+text-align: center;
+font-family: proxima_nova_ltthin;
+/* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
 }

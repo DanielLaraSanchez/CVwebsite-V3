@@ -1,0 +1,25 @@
+.link-1 {
+  transition: 0.3s ease;
+  background: #26262a;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #26262a;
+  border-bottom: 4px solid #26262a;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 6px 0;
+  text-decoration:none;
+  color:#fff;
+}
+#nav-1{
+  margin-top: 20px;
+padding: 24px;
+text-align: center;
+font-family: proxima_nova_ltthin;
+/* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+}
