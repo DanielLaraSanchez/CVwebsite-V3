@@ -415,6 +415,8 @@ button {
 
 .btn-1{
   margin-top:40px;
+  width:100%;
+  color:white;
 }
 
 .btn-1::before,
@@ -428,7 +430,7 @@ button {
 
 .btn-1:hover {
   color: black;
-  width:100%;
+  /* width:100%; */
 
 }
 
@@ -442,6 +444,14 @@ button {
 
 .btn-1:hover:after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .btn-1, .btn-2 {
+    padding:15px 4px;
+    font-size:70%;
+    line-height: 1;
+  }
 }
 
 #btnimg-1{
@@ -523,26 +533,23 @@ button {
 	transition: all 0.4s ease-in;
   color:white;
   /* display:inline-block; */
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  font-family:proxima_nova_ltthin;
+  text-align:center;
 
 }
 
 
 .colimg:hover .details {
-	transform: translate(-50%, -50%) rotateY(0deg);
+	transform: translate(-50%, -50%) rotateY(10deg);
 	opacity: 1;
 display: inline-block;
-vertical-align: middle;
+/* vertical-align: middle; */
+text-align:center;
 
 
 }
 
-
-
-.colimg{
-  /* margin:20px; */
-
-}
 
 #h1{
   font-weight:bold;
