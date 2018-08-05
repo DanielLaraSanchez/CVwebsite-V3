@@ -23,6 +23,10 @@ app.get('/projects', function(req, res){
   res.sendFile(__dirname + '/client/index-4.html');
 });
 
+app.get('/test', function(req, res){
+  res.sendFile(__dirname + '/client/test.html');
+});
+
 app.use(express.static('client'));
 app.use(bodyParser.json());
 
